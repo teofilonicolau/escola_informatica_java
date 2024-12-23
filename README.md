@@ -81,6 +81,46 @@ O projeto utiliza um contêiner Docker para o banco de dados PostgreSQL. Para co
  
      ```
 
+     ## Acessando a Aplicação
+      - A aplicação estará disponível em http://localhost:8080.  
+
+      ### Endpoints da API
+      ### Alunos
+   - GET /alunos: Lista todos os alunos.
+   - ![image](https://github.com/user-attachments/assets/9d26292d-cd98-4c82-a84a-2da9f8bd9548)
+
+   - POST /alunos: Cria um novo aluno.
+
+   - GET /alunos/{id}: Obtém detalhes de um aluno específico.
+   - 
+
+
+   - DELETE /alunos/{id}: Remove um aluno
+
+     ### Professores
+  - GET /professores: Lista todos os professores.
+  - ![image](https://github.com/user-attachments/assets/a7b486b0-9faa-49c2-82a6-0034b1492b37)
+
+
+  - POST /professores: Cria um novo professor.
+
+  - GET /professores/{id}: Obtém detalhes de um professor específico.
+
+   - DELETE /professores/{id}: Remove um professor.
+
+     ### Turmas
+  - GET /turmas: Lista todas as turmas.
+  - ![image](https://github.com/user-attachments/assets/208075b4-4981-429e-a4e9-3a377212f295)
+
+
+  - POST /turmas: Cria uma nova turma.
+
+   - GET /turmas/{id}: Obtém detalhes de uma turma específica.
+
+   - DELETE /turmas/{id}: Remove uma turma. 
+
+
+
     
     
 
